@@ -1,0 +1,2 @@
+<br />
+<b>Fatal error</b>:  Class 'Leafo\ScssPhp\Formatter' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/microthemer/includes/scssphp/scssphp-oct-2018/src/Formatter/Crunched.php</b> on line <b>22</b><br />
