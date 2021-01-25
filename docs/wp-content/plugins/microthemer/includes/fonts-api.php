@@ -13,7 +13,7 @@
 
 
 
-<script src="https://thiagopereiraufv.github.io/portfolio/wp-content/plugins/microthemer/js/page/fonts.js?v=1611526679" type="text/javascript"></script>
+<script src="https://thiagopereiraufv.github.io/portfolio/wp-content/plugins/microthemer/js/page/fonts.js?v=1611533663" type="text/javascript"></script>
 
 </head>
 

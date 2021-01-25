@@ -11,7 +11,7 @@
 	<title>Thiago Pereira</title>
 	<atom:link href="https://thiagopereiraufv.github.io/portfolio/feed/" rel="self" type="application/rss+xml" />
 	<link>https://thiagopereiraufv.github.io/portfolio</link>
-	<description>My portfolio</description>
+	<description>Portfolio</description>
 	<lastBuildDate>Sun, 24 Jan 2021 16:55:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.6</generator>
+
+<image>
+	<url>https://thiagopereiraufv.github.io/portfolio/wp-content/uploads/2021/01/favicon.png</url>
+	<title>Thiago Pereira</title>
+	<link>https://thiagopereiraufv.github.io/portfolio</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>https://thiagopereiraufv.github.io/portfolio/2021/01/hello-world/</link>
