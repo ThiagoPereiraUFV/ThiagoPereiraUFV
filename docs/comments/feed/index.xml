@@ -8,23 +8,23 @@
 <channel>
 	<title>
 	Comments for Thiago Pereira	</title>
-	<atom:link href="https://thiagopereiraufv.github.io/portfolio/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://thiagopereiraufv.github.io/portfolio</link>
+	<atom:link href="https://thiagopereiraufv.github.io/ThiagoPereiraUFV/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://thiagopereiraufv.github.io/ThiagoPereiraUFV</link>
 	<description>Portfolio</description>
 	<lastBuildDate>Sun, 24 Jan 2021 16:55:45 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6</generator>
+	<generator>https://wordpress.org/?v=5.6.1</generator>
 	<item>
 		<title>
 		Comment on Hello world! by A WordPress Commenter		</title>
-		<link>https://thiagopereiraufv.github.io/portfolio/2021/01/hello-world/#comment-1</link>
+		<link>https://thiagopereiraufv.github.io/ThiagoPereiraUFV/2021/01/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Sun, 24 Jan 2021 16:55:45 +0000</pubDate>
-		<guid isPermaLink="false">https://thiagopereiraufv.github.io/portfolio/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://thiagopereiraufv.github.io/ThiagoPereiraUFV/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.

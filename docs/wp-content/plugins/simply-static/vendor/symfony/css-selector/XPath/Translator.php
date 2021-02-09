@@ -1,0 +1,2 @@
+<br>
+<b>Fatal error</b>:  Interface 'Symfony\Component\CssSelector\XPath\TranslatorInterface' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Translator.php</b> on line <b>31</b><br>

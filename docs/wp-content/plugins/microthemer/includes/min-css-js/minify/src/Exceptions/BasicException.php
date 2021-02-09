@@ -1,2 +1,2 @@
-<br />
-<b>Fatal error</b>:  Class 'MatthiasMullie\Minify\Exception' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/microthemer/includes/min-css-js/minify/src/Exceptions/BasicException.php</b> on line <b>10</b><br />
+<br>
+<b>Fatal error</b>:  Class 'MatthiasMullie\Minify\Exception' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/microthemer/includes/min-css-js/minify/src/Exceptions/BasicException.php</b> on line <b>10</b><br>

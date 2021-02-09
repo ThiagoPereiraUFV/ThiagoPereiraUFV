@@ -1,0 +1,4 @@
+<br>
+<b>Warning</b>:  require(/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/../vendor/autoload.php): failed to open stream: No such file or directory in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_docs.php</b> on line <b>3</b><br>
+<br>
+<b>Fatal error</b>:  require(): Failed opening required '/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/../vendor/autoload.php' (include_path='.:/opt/lampp/lib/php') in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_docs.php</b> on line <b>3</b><br>
