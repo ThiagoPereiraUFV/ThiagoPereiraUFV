@@ -8,4 +8,4 @@
 <br><br>
 *“The only true wisdom is in knowing you know nothing.” – Socrates*
 <br><br><br>
-Check out my [Portfolio](https://thiagopereiraufv.github.io/portfolio/)
+Check out my [Portfolio](https://thiagopereiraufv.github.io/ThiagoPereiraUFV/)
