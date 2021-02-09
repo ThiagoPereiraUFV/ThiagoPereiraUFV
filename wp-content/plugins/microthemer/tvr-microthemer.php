@@ -5,7 +5,7 @@ Plugin URI: https://themeover.com/microthemer
 Text Domain: microthemer
 Domain Path: /languages
 Description: Microthemer is a feature-rich visual design plugin for customizing the appearance of ANY WordPress Theme or Plugin Content (e.g. posts, pages, contact forms, headers, footers, sidebars) down to the smallest detail. For CSS coders, Microthemer is a proficiency tool that allows them to rapidly restyle a WordPress theme or plugin. For non-coders, Microthemer's intuitive point and click editing opens the door to advanced theme and plugin customization.
-Version: 6.3.5.7
+Version: 6.3.6.1
 Author: Themeover
 Author URI: https://themeover.com
 */
@@ -318,7 +318,7 @@ if ( is_admin() ) {
 		// define
 		class tvr_microthemer_admin {
 
-			var $version = '6.3.5.7';
+			var $version = '6.3.6.1';
 			var $db_chg_in_ver = '6.0.6.5';
 
 			var $locale = ''; // current language
@@ -673,15 +673,19 @@ if ( is_admin() ) {
 				include dirname(__FILE__) .'/includes/program-data.php';
 
 				// if non-english, we need to write to program-data.js in current language
-				if ( strpos($this->locale, 'en_') === false ){
+				// log success of overwrite
+				// (this didn't work properly on some servers, maybe @fopen suppress would work, but this is safer)
+				$pref_array = array(
+					'inlineJsProgData' => ( strpos($this->locale, 'en_') === false ) //!$this->write_mt_version_specific_js('../js-min')
+				);
 
-					// log success of overwrite
-					$pref_array = array(
-						'inlineJsProgData' => !$this->write_mt_version_specific_js('../js-min')
-					);
+				$this->savePreferences($pref_array);
 
-					$this->savePreferences($pref_array);
-				}
+
+				/*if ( strpos($this->locale, 'en_') === false ){
+
+
+				}*/
 
 				// todo save all lang strings in DB at this point to save CPU later, start with property-options.inc.php
 
@@ -1819,7 +1823,6 @@ if ( is_admin() ) {
 			}
 
 			// add js
-			// add js
 			function add_js() {
 				if (TVR_MICRO_VARIANT == 'themer') {
 
@@ -1827,7 +1830,7 @@ if ( is_admin() ) {
 						wp_enqueue_media(); // adds over 1000 lines of code to footer
 					}
 
-					// Run pre-wordPress 5.6 jQuery and jQuery UI (temp fix to give me time to update MT)
+					// Run pre-wordPress 5.6 jQuery and jQuery UI (temp fix for users with sites that still have issues)
 					$runLegacyJquery = !empty($this->preferences['wp55_jquery_version']);
 
 					// jQuery UI scripts
@@ -1886,7 +1889,7 @@ if ( is_admin() ) {
 							'f' => $runLegacyJquery
 								? '../js-min/legacy-jquery/jquery-ui/'.$jqi.'.min.js'
 								: false,
-							//'footer' => true
+							//'footer' => false
 
 						);
 
@@ -2509,7 +2512,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 
 					// Create new file if it doesn't already exist
 					$js_file = $this->thisplugindir . $dir . '/program-data.js';
-					$write_file = fopen($js_file, 'w');
+					$write_file = @fopen($js_file, 'w');
 
 					if (!$write_file) {
 						$this->log(
@@ -4469,7 +4472,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 					$before_after[] = array(
 						'Full options:' => $this->options
 					);
-					$write_file = fopen($this->debug_dir . 'save-package.txt', 'w');
+					$write_file = @fopen($this->debug_dir . 'save-package.txt', 'w');
 					fwrite($write_file, print_r($before_after, true));
 					fclose($write_file);
 				}
@@ -5111,7 +5114,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 						// output pulled data to debug file
 						if ($this->debug_pulled_data){
 							$debug_file = $this->debug_dir . 'debug-pulled-data.txt';
-							$write_file = fopen($debug_file, 'w');
+							$write_file = @fopen($debug_file, 'w');
 							$data = '';
 							$data.= esc_html__('Custom debug output', 'microthemer') . "\n\n";
 							$data.= $this->debug_custom;
@@ -5767,7 +5770,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 			            // write file to error-reports dir
 			            $file_path = 'error-reports/error-'.date('Y-m-d').'.txt';
 			            $error_file = $this->thisplugindir . $file_path;
-			            $write_file = fopen($error_file, 'w');
+			            $write_file = @fopen($error_file, 'w');
 			            fwrite($write_file, $body);
 			            fclose($write_file);
 			            // Determine from email address. Try to use validated customer email. Don't contact if not Microthemer customer.
@@ -7910,7 +7913,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 				$value,
 				$con = 'reg',
 				$key = 1,
-				$sel_code) {
+				$sel_code = 'selector_code') {
 				$html = '';
 
 				// get value object, array, and string value
@@ -9689,7 +9692,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 			// write to a file (make more use of this function)
 			function write_file($file, $data){
 				// the file will be created if it doesn't exist. otherwise it is overwritten.
-				$write_file = fopen($file, 'w');
+				$write_file = @fopen($file, 'w');
 				// if write is unsuccessful for some reason
 				if (false === fwrite($write_file, $data)) {
 					$this->log(
@@ -10043,7 +10046,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 				$task = 'updated';
 				if (!file_exists($json_file)) {
 					$task = 'created';
-					if (!$write_file = fopen($json_file, 'w')) { // this creates a blank file for writing
+					if (!$write_file = @fopen($json_file, 'w')) { // this creates a blank file for writing
 						$this->log(
 							esc_html__('Create json error', 'microthemer'),
 							'<p>' . esc_html__('WordPress does not have permission to create: ', 'microthemer')
@@ -10134,7 +10137,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 				if ($this->debug_selective_export) {
 					$data = '';
 					$debug_file = $this->debug_dir . 'debug-selective-export.txt';
-					$write_file = fopen($debug_file, 'w');
+					$write_file = @fopen($debug_file, 'w');
 					$data.= esc_html__('The Selectively Exported Options', 'microthemer') . "\n\n";
 					$data.= print_r($json_data, true);
 					$data.= "\n\n" . esc_html__('The Full Options', 'microthemer') . "\n\n";
@@ -10146,7 +10149,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 				// write data to json file
 				if ($data = json_encode($json_data)) {
 					// the file will be created if it doesn't exist. otherwise it is overwritten.
-					$write_file = fopen($json_file, 'w');
+					$write_file = @fopen($json_file, 'w');
 					fwrite($write_file, $data);
 					fclose($write_file);
 					// report
@@ -10262,7 +10265,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 					$debug_mqs['mq_analysis'] = $mq_analysis;
 
 					$debug_file = $this->debug_dir . 'debug-'.$con.'.txt';
-					$write_file = fopen($debug_file, 'w');
+					$write_file = @fopen($debug_file, 'w');
 					$data = '';
 					$data.= "\n\n### 1. Key Debug Analysis \n\n";
 					$data.= print_r($debug_mqs, true);
@@ -10398,7 +10401,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 				// create debug merge file if set at top of script
 				if ($this->debug_merge) {
 					$debug_file = $this->debug_dir . 'debug-merge.txt';
-					$write_file = fopen($debug_file, 'w');
+					$write_file = @fopen($debug_file, 'w');
 					$data = '';
 					$data.= "\n\n" . __('### The to existing options (before merge)', 'microthemer') . "\n\n";
 					$data.= print_r($orig_settings, true);
@@ -10626,7 +10629,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 				if (is_array($prime_files)){
 					foreach($prime_files as $key => $file){
 						if (!file_exists($file)) {
-							if (!$write_file = fopen($file, 'w')) {
+							if (!$write_file = @fopen($file, 'w')) {
 								$this->log(
 									esc_html__('Create stylesheet error', 'microthemer'),
 									'<p>' . esc_html__('WordPress does not have permission to create: ', 'microthemer') .
@@ -10883,7 +10886,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 					);
 					return false;
 				}
-				$fh = fopen($file, 'r');
+				$fh = @fopen($file, 'r');
 				$data = fread($fh, filesize($file));
 				fclose($fh);
 				return $data;
@@ -11119,7 +11122,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 
 				// update the config.json image paths for images successfully moved to the library
 				if (is_writable($json_config_file)) {
-					if ($write_file = fopen($json_config_file, 'w')) {
+					if ($write_file = @fopen($json_config_file, 'w')) {
 						if (fwrite($write_file, $data)) {
 							fclose($write_file);
 							$this->log(
@@ -11454,7 +11457,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 				if (is_file($readme_file)) {
 					// check if it's readable
 					if ( is_readable($readme_file) ) {
-						$fh = fopen($readme_file, 'r');
+						$fh = @fopen($readme_file, 'r');
 						$length = filesize($readme_file);
 						if ($length == 0) {
 							$length = 1;
@@ -11660,7 +11663,7 @@ $this->show_me = '<pre>$media_queries_list: '.print_r($media_queries_list, true)
 
 				// Create new file if it doesn't already exist
 				if (!file_exists($meta_file)) {
-					if (!$write_file = fopen($meta_file, 'w')) {
+					if (!$write_file = @fopen($meta_file, 'w')) {
 						$this->log(
 							sprintf( esc_html__('Create %s error', 'microthemer'), 'meta.txt' ),
 							'<p>' . sprintf(esc_html__('WordPress does not have permission to create: %s', 'microthemer'), $this->root_rel($meta_file) . '. '.$this->permissionshelp ) . '</p>'
@@ -11739,7 +11742,7 @@ DateCreated: '.date('Y-m-d').'
 */';
 
 					// the file will be created if it doesn't exist. otherwise it is overwritten.
-					$write_file = fopen($meta_file, 'w');
+					$write_file = @fopen($meta_file, 'w');
 					fwrite($write_file, $data);
 					fclose($write_file);
 					// success message
@@ -11763,7 +11766,7 @@ DateCreated: '.date('Y-m-d').'
 			function update_readme_file($readme_file) {
 				// Create new file if it doesn't already exist
 				if (!file_exists($readme_file)) {
-					if (!$write_file = fopen($readme_file, 'w')) {
+					if (!$write_file = @fopen($readme_file, 'w')) {
 						$this->log(
 							sprintf( esc_html__('Create %s error', 'microthemer'), 'readme.txt'),
 							'<p>' . sprintf(
@@ -11789,7 +11792,7 @@ DateCreated: '.date('Y-m-d').'
 				if ( is_writable($readme_file) ) {
 					$data = stripslashes($_POST['tvr_theme_readme']); // don't use striptags so html code can be added
 					// the file will be created if it doesn't exist. otherwise it is overwritten.
-					$write_file = fopen($readme_file, 'w');
+					$write_file = @fopen($readme_file, 'w');
 					fwrite($write_file, $data);
 					fclose($write_file);
 					// success message
@@ -12139,7 +12142,7 @@ if (!is_admin()) {
 			var $preferencesName = 'preferences_themer_loader';
 			// @var array $preferences Stores the ui options for this plugin
 			var $preferences = array();
-			var $version = '6.3.5.7';
+			var $version = '6.3.6.1';
 			var $microthemeruipage = 'tvr-microthemer.php';
 			var $file_stub = '';
 			var $min_stub = '';

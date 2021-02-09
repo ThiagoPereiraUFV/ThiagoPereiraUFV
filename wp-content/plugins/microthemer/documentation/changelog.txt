@@ -1,33 +1,51 @@
 CHANGELOG
 
-= 6.3.5.7 (January 22nd, 2020) =
+= 6.3.6.1 (February 8th, 2021) =
+
+# Change
+* Non-English versions of Microthemer always load translated JavaScript data inline, rather than trying to write to a file initially.
+
+# Bugs fixed
+* Activating non-English versions of Microthemer could generate unwanted output.
+
+= 6.3.5.9 (January 31st, 2021) =
+
+# Bugs fixed
+* Under some circumstances, rapidly searching a dropdown menu could generate a JavaScript error: "Cannot read property 'value' of undefined".
+
+= 6.3.5.8 (January 23rd, 2021) =
+
+# Bugs fixed
+* PHP warning: Required parameter $sel_code follows optional parameter $con
+
+= 6.3.5.7 (January 22nd, 2021) =
 
 # Bugs fixed
 * Grid highlighting could also be misaligned if the body element had a non-static position value.
 
-= 6.3.5.6 (January 22nd, 2020) =
+= 6.3.5.6 (January 22nd, 2021) =
 
 # Bugs fixed
 * Issue with Microthemer interface not loading the frontend.
 * Microthemer's element highlighting could be misaligned if the body element had a non-static position value.
 
-= 6.3.5.4 (January 19th, 2020) =
+= 6.3.5.4 (January 19th, 2021) =
 
 # Enhancement
 * Added a temporary 'Compatibility' tab to the preferences where you can choose to load an older version of jQuery. This was to address a number of reports from customers that are having issues with WordPress 5.6 and Microthemer 6.3.5.2, which stopped reverting jQuery by default.
 
-= 6.3.5.3 (January 15th, 2020) =
+= 6.3.5.3 (January 15th, 2021) =
 
 # Bugs fixed
 * Tooltips had very low opacity.
 
-= 6.3.5.2 (January 11th, 2020) =
+= 6.3.5.2 (January 11th, 2021) =
 
 # Bugs fixed
 * Removed deprecated jQuery functions that are not compatible with the native version of jQuery that ships with WordPress 5.6 and later.
 * Using the icons in the CSS property menus (e.g. clear/save) triggered focus on the current value.
 
-= 6.3.5.0 (January 2nd, 2020) =
+= 6.3.5.0 (January 2nd, 2021) =
 
 # Change
 * Updated the Sass compiler to the latest version.

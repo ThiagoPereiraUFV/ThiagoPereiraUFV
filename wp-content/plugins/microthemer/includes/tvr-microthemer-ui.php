@@ -2118,7 +2118,7 @@ if ($this->edge_mode['active']){
 // output current settings to file (before any save), also useful for output custom debug stuff
 if ($this->debug_current){
 	$debug_file = $this->micro_root_dir . $this->preferences['theme_in_focus'] . '/debug-current.txt';
-	$write_file = fopen($debug_file, 'w');
+	$write_file = @fopen($debug_file, 'w');
 	$data = '';
 	$data.= esc_html__('Custom debug output', 'microthemer') . "\n\n";
 	//$data.= $this->debug_custom;
