@@ -10,24 +10,8 @@
 <br><br>
 
 <p align="center">
-	<a href="https://www.linkedin.com/in/thiagopereira98">
-		<img alt="LinkedIn" src="https://img.shields.io/badge/thiagopereira98%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-	</a>
-	&nbsp;&nbsp;&nbsp;
-	<a href="https://www.instagram.com/thiagod.98/">
-		<img alt="Instagram" src="https://img.shields.io/badge/thiagod.98%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>
-	</a>
-	&nbsp;&nbsp;&nbsp;
-	<a href="https://www.facebook.com/Thiago.pereira.572/">
-		<img alt="Facebook" src="https://img.shields.io/badge/Thiago Pereira%20-%231877F2.svg?&style=for-the-badge&logo=Facebook&logoColor=white"/>
-	</a>
-	&nbsp;&nbsp;&nbsp;
-	<a href="https://www.hackerrank.com/Thiago_Pereira?hr_r=1">
-		<img alt="HackerRank" src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"/>
-	</a>
-	&nbsp;&nbsp;&nbsp;
 	<a href="https://thiagopereiraufv.github.io/ThiagoPereiraUFV/">
-		<img alt="HackerRank" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/>
+		<img alt="Portfolio" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/>
 	</a>
 </p>
 
