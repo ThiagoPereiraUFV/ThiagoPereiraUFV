@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Class 'voku\helper\AbstractSimpleHtmlDomNode' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNodeBlank.php</b> on line <b>10</b><br>

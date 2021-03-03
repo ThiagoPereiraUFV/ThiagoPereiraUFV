@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Class 'Leafo\ScssPhp\Node' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/microthemer/includes/scssphp/scssphp-oct-2018/src/Node/Number.php</b> on line <b>29</b><br>

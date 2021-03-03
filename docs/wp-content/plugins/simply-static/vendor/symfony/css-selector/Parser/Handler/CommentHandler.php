@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Interface 'Symfony\Component\CssSelector\Parser\Handler\HandlerInterface' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php</b> on line <b>27</b><br>

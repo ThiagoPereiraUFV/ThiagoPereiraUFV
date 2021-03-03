@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Class 'Symfony\Component\CssSelector\XPath\Extension\AbstractExtension' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php</b> on line <b>26</b><br>

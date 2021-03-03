@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Class 'WP_Async_Request' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/simply-static/vendor/a5hleyrich/wp-background-processing/classes/wp-background-process.php</b> on line <b>14</b><br>

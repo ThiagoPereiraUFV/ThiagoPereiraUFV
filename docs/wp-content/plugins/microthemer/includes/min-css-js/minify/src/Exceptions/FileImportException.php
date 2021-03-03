@@ -1,2 +1,0 @@
-<br>
-<b>Fatal error</b>:  Class 'MatthiasMullie\Minify\Exceptions\BasicException' not found in <b>/opt/lampp/htdocs/portfolio/wp-content/plugins/microthemer/includes/min-css-js/minify/src/Exceptions/FileImportException.php</b> on line <b>8</b><br>
