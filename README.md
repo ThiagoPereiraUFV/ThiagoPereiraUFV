@@ -1,6 +1,6 @@
 ###  Hi there :wave:
 
-:heart: I am a web development enthusiast who loves React.js and Express.js applications.
+:heart: I am a web development enthusiast who loves javascript applications.
 
 :triangular_ruler: Visual effects and pretty fonts are nothing without analysis and design. Scalability and robustness are the goals.
 
