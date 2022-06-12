@@ -10,7 +10,7 @@
 <br><br>
 
 <p align="center">
-	<a href="https://thiagopereiraufv.github.io/">
+	<a href="https://thiagopereiraufv.github.io/" target="_blank">
 		<img alt="Portfolio" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/>
 	</a>
 </p>
