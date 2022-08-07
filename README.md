@@ -67,6 +67,17 @@
 	<img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </p>
 
+
+**:computer: Extra skills**
+
+<p align="center">
+	<img alt="Yarn" src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white"/>
+	<img alt="NPM" src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"/>
+	<img alt="OpenGL" src="https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl"/>
+	<img alt="Socket.io" src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101"/>
+	<img alt="JWT" src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"/>
+</p>
+
 **:chart_with_upwards_trend: My profile statistics**
 <p align="center">
 	<a href="https://github-readme-stats.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true">
