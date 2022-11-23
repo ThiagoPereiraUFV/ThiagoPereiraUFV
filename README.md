@@ -92,10 +92,8 @@
 
 **:chart_with_upwards_trend: My profile statistics**
 <p align="center">
-	<a href="https://github-readme-stats.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true">
-		<img align="center" alt="Github stats" src="https://github-readme-stats.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true"/>
-	</a>
-	<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&hide=php,scss&langs_count=8">
-		<img align="center" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&hide=php,scss&langs_count=8"/>
-	</a>
+<a href="https://github.com/ThiagoPereiraUFV">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
+</a>
 </p>
