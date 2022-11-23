@@ -95,6 +95,6 @@
 <a href="https://github.com/ThiagoPereiraUFV">
   <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
-  <img height="200em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
 </a>
 </p>
