@@ -15,6 +15,8 @@
 	</a>
 </p>
 
+<details>
+<summary align="center">My skills</summary>
 
 **:clipboard: Language skills**
 
@@ -98,3 +100,4 @@
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
 </a>
 </p>
+</details>
