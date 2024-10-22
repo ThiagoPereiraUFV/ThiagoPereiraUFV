@@ -68,11 +68,11 @@
 
 <h4>📈 My profile statistics</h4>
 
-<p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
-	<a href="https://github.com/ThiagoPereiraUFV">
-	  <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
-	  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
-	  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
-	</a>
-</p>
+<a href="https://github.com/ThiagoPereiraUFV">
+	<p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
+		  <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
+		  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
+		  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
+	</p>
+</a>
 </details>
