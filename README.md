@@ -18,7 +18,7 @@
 <details>
 <summary align="center">My skills</summary>
 
-**:clipboard: Language skills**
+<h4>📋 Language skills</h4>
 
 <p align="center">
 	<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
