@@ -1,4 +1,4 @@
-<h3>Hi there 👋</h3>
+<h3 class="tw-text-3xl">Hi there 👋</h3>
 
 ❤️ I am a web development enthusiast who loves javascript applications.
 
@@ -19,13 +19,13 @@
 
 <details>
 <summary align="center">My skills</summary>
-<h4>📋 Language skills</h4>
+<h4 class="tw-text-2xl">📋 Language skills</h4>
 <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
 	<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 	<img alt="TypeScript" src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
 </p>
 
-<h4>💾 Backend/DB skills</h4>
+<h4 class="tw-text-2xl">💾 Backend/DB skills</h4>
 <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
 	<img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
 	<img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
@@ -36,7 +36,7 @@
 	<img alt="SQLite" src ="https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white"/>
 </p>
 
-<h4>☁️ Hosting skills</h4>
+<h4 class="tw-text-2xl">☁️ Hosting skills</h4>
 <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
 	<img alt="DigitalOcean" src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white"/>
 	<img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
@@ -44,13 +44,13 @@
 	<img alt="Netlify" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
 </p>
 
-<h4>🔨 Tools skills</h4>
+<h4 class="tw-text-2xl">🔨 Tools skills</h4>
 <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
 	<img alt="Insomnia" src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/>
 	<img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </p>
 
-<h4>📚 Extra skills</h4>
+<h4 class="tw-text-2xl">📚 Extra skills</h4>
 <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
 	<img alt="Yarn" src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white"/>
 	<img alt="NPM" src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"/>
@@ -61,7 +61,7 @@
 	<img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
 </p>
 
-<h4>📈 My profile statistics</h4>
+<h4 class="tw-text-2xl">📈 My profile statistics</h4>
 <a href="https://github.com/ThiagoPereiraUFV">
 	<p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
 		  <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
