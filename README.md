@@ -19,7 +19,6 @@
 
 <details>
 <summary align="center">My skills</summary>
-
 <h4>📋 Language skills</h4>
 
 <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
