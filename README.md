@@ -1,10 +1,10 @@
-###  Hi there :wave:
+<h3>Hi there 👋</h3> 
 
-:heart: I am a web development enthusiast who loves javascript applications.
+❤️ I am a web development enthusiast who loves javascript applications.
 
-:triangular_ruler: Visual effects and pretty fonts are nothing without analysis and design. Scalability and robustness are the goals.
+📐 Visual effects and pretty fonts are nothing without analysis and design. Scalability and robustness are the goals.
 
-:closed_book: I am willing to learn new things and develop new methods to approach the problem from other points of view and solve it.
+📕 I am willing to learn new things and develop new methods to approach the problem from other points of view and solve it.
 <br><br>
 *“The only true wisdom is in knowing you know nothing.” – Socrates*
 <br><br>
@@ -47,22 +47,22 @@
 <!-- </p> -->
 
 
-**:floppy_disk: Backend/DB skills**
+<h4>💾 Backend/DB skills</h4>
 
 <p align="center">
 	<img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
 	<img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
 	<img alt="NestJS" src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white"/>
 	<img alt="Strapi" src="https://img.shields.io/badge/strapi%20-%232E7EEA.svg?&style=for-the-badge&logo=strapi&logoColor=white" />
-	<img alt="Django" src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" />
+<!-- 	<img alt="Django" src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" /> -->
 	<img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
 	<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
 	<img alt="SQLite" src ="https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white"/>
-	<img alt="Oracle" src ="https://img.shields.io/badge/oracle%20-%23F00000.svg?&style=for-the-badge&logo=oracle&logoColor=white"/>
+<!-- 	<img alt="Oracle" src ="https://img.shields.io/badge/oracle%20-%23F00000.svg?&style=for-the-badge&logo=oracle&logoColor=white"/> -->
 </p>
 
 
-**:cloud: Hosting skills**
+<h4>☁️ Hosting skills</h4>
 
 <p align="center">
 	<img alt="DigitalOcean" src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white"/>
@@ -71,16 +71,14 @@
 	<img alt="Netlify" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
 </p>
 
-
-**:hammer: Tools skills**
+<h4>🔨 Tools skills</h4>
 
 <p align="center">
 	<img alt="Insomnia" src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/>
 	<img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </p>
 
-
-**:books: Extra skills**
+<h4>📚 Extra skills</h4>
 
 <p align="center">
 	<img alt="Yarn" src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white"/>
@@ -92,12 +90,13 @@
 	<img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
 </p>
 
-**:chart_with_upwards_trend: My profile statistics**
+<h4>📈 My profile statistics</h4>
+
 <p align="center">
-<a href="https://github.com/ThiagoPereiraUFV">
-  <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
-</a>
+	<a href="https://github.com/ThiagoPereiraUFV">
+	  <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
+	  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
+	  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
+	</a>
 </p>
 </details>
