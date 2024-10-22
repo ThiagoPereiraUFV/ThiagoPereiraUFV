@@ -1,12 +1,13 @@
-<h3>Hi there 👋</h3> 
+<h3>Hi there 👋</h3>
 
 ❤️ I am a web development enthusiast who loves javascript applications.
 
 📐 Visual effects and pretty fonts are nothing without analysis and design. Scalability and robustness are the goals.
 
 📕 I am willing to learn new things and develop new methods to approach the problem from other points of view and solve it.
+
 <br><br>
-*“The only true wisdom is in knowing you know nothing.” – Socrates*
+<em>“The only true wisdom is in knowing you know nothing.” – Socrates</em>
 <br><br>
 
 <p align="center">
