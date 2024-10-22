@@ -6,9 +6,7 @@
 
 📕 I am willing to learn new things and develop new methods to approach the problem from other points of view and solve it.
 
-<br><br>
 <em>“The only true wisdom is in knowing you know nothing.” – Socrates</em>
-<br><br>
 
 <p align="center">
 	<a href="https://thiagopereiraufv.github.io" target="_blank">
