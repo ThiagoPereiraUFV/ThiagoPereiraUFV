@@ -10,8 +10,11 @@
 <br><br>
 
 <p align="center">
-	<a href="https://thiagopereiraufv.github.io/" target="_blank">
+	<a href="https://thiagopereiraufv.github.io" target="_blank">
 		<img alt="Portfolio" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/>
+	</a>
+	<a href="https://github.com/ThiagoPereiraUFV" target="_blank">
+		<img alt="Github" src="https://img.shields.io/static/v1?style=for-the-badge&label=Github&message=ThiagoPereiraUFV&color=blue"/>
 	</a>
 </p>
 
