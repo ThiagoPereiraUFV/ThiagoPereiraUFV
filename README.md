@@ -8,7 +8,7 @@
 
 <em>“The only true wisdom is in knowing you know nothing.” – Socrates</em>
 
-<p align="center">
+<p class="tw-flex tw-justify-between" align="center">
 	<a href="https://thiagopereiraufv.github.io" target="_blank">
 		<img alt="Portfolio" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/>
 	</a>
