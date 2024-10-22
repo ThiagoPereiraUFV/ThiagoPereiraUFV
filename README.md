@@ -8,7 +8,7 @@
 
 <em>“The only true wisdom is in knowing you know nothing.” – Socrates</em>
 
-<p class="tw-flex tw-justify-between" align="center">
+<p class="tw-flex tw-justify-center tw-gap-8" align="center">
 	<a href="https://thiagopereiraufv.github.io" target="_blank">
 		<img alt="Portfolio" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/>
 	</a>
@@ -22,7 +22,7 @@
 
 <h4>📋 Language skills</h4>
 
-<p align="center">
+<p class="tw-flex tw-justify-center tw-gap-8" align="center">
 	<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 	<img alt="TypeScript" src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
 <!-- 	<img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/> -->
@@ -51,7 +51,7 @@
 
 <h4>💾 Backend/DB skills</h4>
 
-<p align="center">
+<p class="tw-flex tw-justify-center tw-gap-8" align="center">
 	<img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
 	<img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
 	<img alt="NestJS" src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white"/>
@@ -66,7 +66,7 @@
 
 <h4>☁️ Hosting skills</h4>
 
-<p align="center">
+<p class="tw-flex tw-justify-center tw-gap-8" align="center">
 	<img alt="DigitalOcean" src="https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white"/>
 	<img alt="Firebase" src="https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"/>
 	<img alt="Heroku" src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"/>
@@ -75,14 +75,14 @@
 
 <h4>🔨 Tools skills</h4>
 
-<p align="center">
+<p class="tw-flex tw-justify-center tw-gap-8" align="center">
 	<img alt="Insomnia" src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/>
 	<img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </p>
 
 <h4>📚 Extra skills</h4>
 
-<p align="center">
+<p class="tw-flex tw-justify-center tw-gap-8" align="center">
 	<img alt="Yarn" src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white"/>
 	<img alt="NPM" src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"/>
 	<img alt="OpenGL" src="https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl"/>
@@ -94,7 +94,7 @@
 
 <h4>📈 My profile statistics</h4>
 
-<p align="center">
+<p class="tw-flex tw-justify-center tw-gap-8" align="center">
 	<a href="https://github.com/ThiagoPereiraUFV">
 	  <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
 	  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
