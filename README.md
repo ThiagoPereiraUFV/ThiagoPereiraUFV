@@ -19,7 +19,7 @@
 <table class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
  <tr>
     <th><h4 class="tw-text-2xl">📋 Language skills</h4></th>
-    <th><h4 class="tw-text-2xl">💾 Backend/DB skills</h4></th>
+    <th><h4 class="tw-text-2xl">💾 Backend/Database skills</h4></th>
  </tr>
  <tr>
     <td align="center">
@@ -57,7 +57,7 @@
     </td>
  </tr>
  <tr>
-    <th><h4 class="tw-text-2xl">📚 AI skills</h4></th>
+    <th><h4 class="tw-text-2xl">🤖 AI skills</h4></th>
     <th><h4 class="tw-text-2xl">📚 Extra skills</h4></th>
  </tr>
  <tr>
