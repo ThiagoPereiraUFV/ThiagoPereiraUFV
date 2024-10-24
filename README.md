@@ -1,17 +1,17 @@
-<h3 class="tw-text-3xl">Hi there 👋</h3>
+<h3 class="tw-text-3xl">Hi there 👋</h3><br />
 
-❤️ I am a web development enthusiast who loves javascript applications.
+❤️ I am a web development enthusiast who loves javascript applications.<br /><br />
 
-📐 Visual effects and pretty fonts are nothing without analysis and design. Scalability and robustness are the goals.
+📐 Visual effects and pretty fonts are nothing without analysis and design. Scalability and robustness are the goals.<br /><br />
 
-📕 I am willing to learn new things and develop new methods to approach the problem from other points of view and solve it.
+📕 I am willing to learn new things and develop new methods to approach the problem from other points of view and solve it.<br /><br />
 
-<em>“The only true wisdom is in knowing you know nothing.” – Socrates</em>
+<em>“The only true wisdom is in knowing you know nothing.” – Socrates</em><br /><br />
 
 <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
  <a href="https://thiagopereiraufv.github.io" target="_blank"><img alt="Portfolio" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/></a>
  <a href="https://github.com/ThiagoPereiraUFV" target="_blank"><img alt="Github" src="https://img.shields.io/static/v1?style=for-the-badge&label=Github&message=ThiagoPereiraUFV&color=blue"/></a>
-</p>
+</p><br />
 
 <details>
 <summary align="center">My skills</summary>
@@ -78,7 +78,7 @@
  </tr>
 </table>
 
-<h4 class="tw-text-2xl">📈 My profile statistics</h4>
+<h4 class="tw-text-2xl">📈 My profile statistics</h4><br />
 <a href="https://github.com/ThiagoPereiraUFV">
  <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
       <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
