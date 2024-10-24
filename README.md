@@ -16,7 +16,7 @@
 <details>
 <summary align="center">My skills</summary>
 
-<table class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
+<table class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center" style="border-spacing: 50px; border-collapse: separate;">
  <tr>
     <th><h4 class="tw-text-2xl">📋 Language skills</h4></th>
     <th><h4 class="tw-text-2xl">💾 Backend/Database skills</h4></th>
