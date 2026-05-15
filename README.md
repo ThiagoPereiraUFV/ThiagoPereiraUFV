@@ -1,4 +1,4 @@
-<h3 class="tw-text-3xl">Hi there 👋</h3><br />
+<h3 class="tw:text-3xl">Hi there 👋</h3><br />
 
 ❤️ I am a web development enthusiast who loves javascript applications.<br /><br />
 
@@ -8,7 +8,7 @@
 
 <em>“The only true wisdom is in knowing you know nothing.” – Socrates</em><br /><br />
 
-<p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
+<p class="tw:flex tw:flex-wrap tw:justify-center tw:gap-4" align="center">
  <a href="https://thiagopereiraufv.github.io" target="_blank"><img alt="Portfolio" src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange"/></a>
  <a href="https://github.com/ThiagoPereiraUFV" target="_blank"><img alt="Github" src="https://img.shields.io/static/v1?style=for-the-badge&label=Github&message=ThiagoPereiraUFV&color=blue"/></a>
 </p><br />
@@ -16,10 +16,10 @@
 <details>
 <summary align="center">My skills</summary>
 
-<table class="tw:w-full tw-flex tw-flex-wrap tw-justify-center tw-gap-4 tw-w-full" align="center" style="border-spacing: 50px; border-collapse: separate;">
+<table class="tw:w-full tw:flex tw:flex-wrap tw:justify-center tw:gap-4 tw:w-full" align="center" style="border-spacing: 50px; border-collapse: separate;">
  <tr>
-    <th><h4 class="tw-text-2xl">📋 Language skills</h4></th>
-    <th><h4 class="tw-text-2xl">💾 Backend/Database skills</h4></th>
+    <th><h4 class="tw:text-2xl">📋 Language skills</h4></th>
+    <th><h4 class="tw:text-2xl">💾 Backend/Database skills</h4></th>
  </tr>
  <tr>
     <td align="center">
@@ -37,8 +37,8 @@
     </td>
  </tr>
  <tr>
-    <th><h4 class="tw-text-2xl">☁️ Hosting skills</h4></th>
-    <th><h4 class="tw-text-2xl">🔨 Tools skills</h4></th>
+    <th><h4 class="tw:text-2xl">☁️ Hosting skills</h4></th>
+    <th><h4 class="tw:text-2xl">🔨 Tools skills</h4></th>
  </tr>
  <tr>
     <td align="center">
@@ -57,8 +57,8 @@
     </td>
  </tr>
  <tr>
-    <th><h4 class="tw-text-2xl">🤖 AI skills</h4></th>
-    <th><h4 class="tw-text-2xl">📚 Extra skills</h4></th>
+    <th><h4 class="tw:text-2xl">🤖 AI skills</h4></th>
+    <th><h4 class="tw:text-2xl">📚 Extra skills</h4></th>
  </tr>
  <tr>
     <td align="center">
@@ -78,9 +78,9 @@
  </tr>
 </table>
 
-<h4 class="tw-text-2xl">📈 My profile statistics</h4><br />
+<h4 class="tw:text-2xl">📈 My profile statistics</h4><br />
 <a href="https://github.com/ThiagoPereiraUFV">
- <p class="tw-flex tw-flex-wrap tw-justify-center tw-gap-4" align="center">
+ <p class="tw:flex tw:flex-wrap tw:justify-center tw:gap-4" align="center">
       <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=ThiagoPereiraUFV&theme=algolia"/>
       <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ThiagoPereiraUFV&layout=compact&langs_count=8&theme=algolia"/>
       <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ThiagoPereiraUFV&show_icons=true&theme=algolia&count_private=true"/>
