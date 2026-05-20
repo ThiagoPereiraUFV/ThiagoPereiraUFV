@@ -1,5 +1,5 @@
 <div
-	style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif; max-width: 90rem; margin: 0 auto; padding: 0.5rem 1rem 2rem;">
+	style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif; max-width: 95rem; margin: 0 auto; padding: 0.5rem 1rem 2rem;">
 	<!-- Greeting -->
 	<div style="text-align: center; padding: 2rem 1rem 1.5rem; animation: bioSlideUp 0.7s ease-out both;">
 		<h3
