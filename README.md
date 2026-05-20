@@ -1,7 +1,7 @@
 <div
 	style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif; max-width: 80rem; margin: 0 auto; padding: 0.5rem 1rem 2rem;">
 	<!-- Greeting -->
-	<div style="text-align: center; padding: 2rem 1rem 1.5rem;">
+	<div style="text-align: center; padding: 2rem 1rem 1.5rem; animation: bioSlideUp 0.7s ease-out both;">
 		<h3
 			style="font-size: clamp(1.5rem, 5vw, 2.25rem); font-weight: 700; margin: 0 0 1.5rem 0; letter-spacing: -0.025em;">
 			Hi there &#x1F44B;</h3>
@@ -17,16 +17,18 @@
 		</p>
 	</div>
 	<!-- Divider -->
-	<hr style="border: none; border-top: 1px solid rgba(128, 128, 128, 0.2); margin: 0.5rem 0 1.5rem;" />
+	<hr
+		style="border: none; border-top: 1px solid rgba(128, 128, 128, 0.2); margin: 0.5rem 0 1.5rem; animation: bioFadeIn 0.6s ease-out 0.3s both;" />
 	<!-- Quote -->
 	<blockquote
-		style="border-left: 3px solid #58a6ff; padding: 0.875rem 1.25rem; margin: 0 0 1.75rem 0; background: rgba(88, 166, 255, 0.06); border-radius: 0 0.5rem 0.5rem 0;">
+		style="border-left: 3px solid #58a6ff; padding: 0.875rem 1.25rem; margin: 0 0 1.75rem 0; background: rgba(88, 166, 255, 0.06); border-radius: 0 0.5rem 0.5rem 0; animation: bioSlideInLeft 0.6s ease-out 0.4s both;">
 		<em style="font-size: clamp(0.875rem, 3vw, 0.9375rem); line-height: 1.75; opacity: 0.8; font-style: italic;">
 			&#x201C;The only true wisdom is in knowing you know nothing.&#x201D; &#x2013; Socrates
 		</em>
 	</blockquote>
 	<!-- Links -->
-	<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-bottom: 2rem;">
+	<div
+		style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-bottom: 2rem; animation: bioFadeIn 0.6s ease-out 0.55s both;">
 		<a href="https://thiagopereiraufv.github.io" target="_blank" style="text-decoration: none;">
 			<img alt="Portfolio"
 				src="https://img.shields.io/static/v1?style=for-the-badge&label=Portfolio&message=Thiago%20Pereira&color=orange" />
@@ -37,13 +39,14 @@
 		</a>
 	</div>
 	<!-- Skills Section -->
-	<details>
+	<details style="animation: bioSlideUp 0.6s ease-out 0.7s both;">
 		<summary
 			style="cursor: pointer; font-size: clamp(0.9375rem, 3.5vw, 1.125rem); font-weight: 600; padding: 0.875rem 1.25rem; background: rgba(88, 166, 255, 0.07); border: 1px solid rgba(88, 166, 255, 0.2); border-radius: 0.625rem; list-style: none; -webkit-appearance: none; appearance: none; display: flex; align-items: center; gap: 0.5rem; letter-spacing: 0.01em;">
 			&#x26A1; Skills &amp; Statistics
 		</summary>
 		<div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1.25rem;">
-			<div style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem;">
+			<div
+				style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem; animation: bioScaleIn 0.5s ease-out 0.1s both;">
 				<h4
 					style="font-size: clamp(0.875rem, 3.5vw, 1rem); font-weight: 600; margin: 0 0 0.875rem 0; text-align: center; letter-spacing: 0.02em; text-transform: uppercase;">
 					&#x1F4CB; Languages</h4>
@@ -54,7 +57,8 @@
 						src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white" />
 				</div>
 			</div>
-			<div style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem;">
+			<div
+				style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem; animation: bioScaleIn 0.5s ease-out 0.2s both;">
 				<h4
 					style="font-size: clamp(0.875rem, 3.5vw, 1rem); font-weight: 600; margin: 0 0 0.875rem 0; text-align: center; letter-spacing: 0.02em; text-transform: uppercase;">
 					&#x1F4BE; Backend &amp; Database</h4>
@@ -75,7 +79,8 @@
 						src="https://img.shields.io/badge/postgresql-black?style=for-the-badge&logo=postgresql" />
 				</div>
 			</div>
-			<div style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem;">
+			<div
+				style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem; animation: bioScaleIn 0.5s ease-out 0.3s both;">
 				<h4
 					style="font-size: clamp(0.875rem, 3.5vw, 1rem); font-weight: 600; margin: 0 0 0.875rem 0; text-align: center; letter-spacing: 0.02em; text-transform: uppercase;">
 					&#x2601;&#xFE0F; Hosting &amp; DevOps</h4>
@@ -90,7 +95,8 @@
 						src="https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker&logoColor=white" />
 				</div>
 			</div>
-			<div style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem;">
+			<div
+				style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem; animation: bioScaleIn 0.5s ease-out 0.4s both;">
 				<h4
 					style="font-size: clamp(0.875rem, 3.5vw, 1rem); font-weight: 600; margin: 0 0 0.875rem 0; text-align: center; letter-spacing: 0.02em; text-transform: uppercase;">
 					&#x1F528; Tools</h4>
@@ -105,7 +111,8 @@
 						src="https://img.shields.io/badge/github%20copilot-black?style=for-the-badge&logo=github-copilot&logoColor=white" />
 				</div>
 			</div>
-			<div style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem;">
+			<div
+				style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem; animation: bioScaleIn 0.5s ease-out 0.5s both;">
 				<h4
 					style="font-size: clamp(0.875rem, 3.5vw, 1rem); font-weight: 600; margin: 0 0 0.875rem 0; text-align: center; letter-spacing: 0.02em; text-transform: uppercase;">
 					&#x1F916; AI &amp; ML</h4>
@@ -124,7 +131,8 @@
 						src="https://img.shields.io/badge/langchain-black?style=for-the-badge&logo=langchain&logoColor=white" />
 				</div>
 			</div>
-			<div style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem;">
+			<div
+				style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem; animation: bioScaleIn 0.5s ease-out 0.6s both;">
 				<h4
 					style="font-size: clamp(0.875rem, 3.5vw, 1rem); font-weight: 600; margin: 0 0 0.875rem 0; text-align: center; letter-spacing: 0.02em; text-transform: uppercase;">
 					&#x1F4DA; More Technologies</h4>
@@ -144,7 +152,8 @@
 						src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 				</div>
 			</div>
-			<div style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem;">
+			<div
+				style="padding: 1.25rem; border: 1px solid rgba(128, 128, 128, 0.15); border-radius: 0.75rem; animation: bioScaleIn 0.5s ease-out 0.7s both;">
 				<h4
 					style="font-size: clamp(0.875rem, 3.5vw, 1rem); font-weight: 600; margin: 0 0 0.875rem 0; text-align: center; letter-spacing: 0.02em; text-transform: uppercase;">
 					&#x1F4C8; GitHub Statistics</h4>
